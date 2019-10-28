@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Questionaire Form</title>
+</head>
+<body>
+	<center><h1>Questionare Form</h1></center>
+	<link rel="stylesheet" type="text/css" href="data.css">
+	<div style="text-align:center">
+		<img src="fruits.jpg" alt="fruits"
+		style="width: 150px; height: 150px">
+	<form action="index.php" name="my form" method="POST" >
+	First Name:<input type="text"  name="First Name"><br>
+	Last Name:<input type="text" name="Last Name"><br>	
+
+Are you:<br>
+<input type="radio" name="sex" value="Male" >Male<br>
+<input type="radio" name="sex" value="Female" >Female<br>
+
+I like:<br>
+<input type="checkbox" name="Apple" value="Apple">Apple<br>
+<input type="checkbox" name="Banana" value="Banana">Banana<br>
+<input type="checkbox" name="Oranges" value="Apple">Oranges<br>
+
+what is your favourite fruit?<br>
+<select name="favourite">
+	<option value="Apple" selected="selected">Apple</option>
+	<option value="Oranges" selected="selected">Oranges</option>
+<option value="Banana" selected="selected">Banana</option>
+
+
+<input type="submit" value="submit the Questionaire">
+
+	</form>
+
+</body>
+</html>
